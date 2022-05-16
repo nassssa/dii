@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-.obome-foto{
+.index-foto{
     border-radius: 10px;
     max-width: 250%;
     max-height: 196%;
