@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.bac{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./../photo/Р¤РѕРЅ.jpg");
+    background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    -webkit-background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zagolovok{
+    margin-top: 50px;
+    margin: 0;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 56px;
+    vertical-align: text-top;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.mini{
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.2cm;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.card
+{
+    margin:1%;
+    padding: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgb(219, 190, 190);
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+.card-sv{
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 19px;
+    background-color: rgb(219, 190, 190);
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+	text-align: left;
+}
+.hr{
+    position: absolute;
+    padding-top: 3%; 
+    margin: 0px;
+}
+.silka1{
+    bottom: 540px ;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(245, 245, 220, 0.9) ;
+}
+.card-link:link{
+    color: rgb(74, 192, 228);
+    text-decoration: underline;
+}
+.card-link:visited
+{
+    color: rgb(255, 140, 105);
+    text-decoration: none;
+}
+.card-link:hover{
+    color: rgb(214, 67, 67);
+    text-decoration: underline;
+}
+.cerd-img{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height:  110px;
+    
+}
+.cerd-img-sv{
+    border-radius: 15px;
+    width: 40px;
+    height:  40px;
+    
+}
+.tabliza
+{
+    position: absolute;
+    top: 20px;
+    margin: 25px;
+    text-align: center;
+    font-weight: bolder;
+    width: 1500px;
+    max-width: 100%;
+}
+.tabliza2
+{
+    position: absolute;
+    bottom: 3%;
+    text-align: center;
+    font-weight: bolder;
+    width: 500px;
+	display: flex;
+    align-items: center;
+    justify-content: center
+}
+.silka{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(245, 245, 220, 0.9) ;
+    color: rgb(74, 192, 228);
+    text-decoration: none;
+}
+.silka2{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(171, 243, 142, 0.9) ;
+    color: rgb(74, 192, 228);
+    text-decoration: none;
+}
+.silka:visited
+{
+    color: rgb(255, 140, 105);
+}
+.silka:hover
+{
+    color: rgb(214, 67, 67);
+    text-decoration: underline;
+}
+.silka2:visited
+{
+    color: rgb(255, 140, 105);
+}
+.silka2:hover
+{
+    color: rgb(214, 67, 67);
+    text-decoration: underline;
+}
+.text{
+    position: absolute;
+    right: 10px;
+    top: 25%;
+    width: 50%;
+    max-width: 30%;
+    max-height: 100%;
+    background-color: rgba(245, 245, 220, 0.6);
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+.text-res{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width:60%;
+    max-width: 60%;
+    max-height: 100%;
+    background-color: rgba(245, 245, 220, 0.6);
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 130%;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+.rovnyak1{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	/*padding-left:20%;*/  
+	/*padding-right:20%;*/  
+}
+figcaption { 
+	text-align: center;
+}
+figure {
+background-color: rgba(245, 245, 220, 0.6);
+box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+border-radius: 15px;
+padding: 10px; /* РѕС‚СЃС‚СѓРїС‹ РѕС‚ РєР°СЂС‚РёРЅРєРё */
+width: 75%; 
+background-color: rgba(245, 245, 220, 0.6);
+border-radius: 20px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 20px;
+font-weight: 600;
+font-size: 15px;
+line-height: 130%;
+text-align: left;
+color: rgb(0, 0, 0);
+}
