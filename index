@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Обо мне</title>
+        <link rel="stylesheet" href="./css/oformlenie.css">
+        <link rel="stylesheet" href="./css/foto.css">
+    </head>
+    <body>
+        <div class="bac">
+            <h1 class="zagolovok">Филиппов Вадим Дмитриевич</h1>
+            <p class="mini">Студент ВятГУ</p>
+            <div class="container2">
+                <table class="tabliza">
+                   <tr>
+                       <td><a href="./index.html" class="silka">Обо мне</a></td>
+                       <td><a href="./detstvo.html" class="silka">Детство</a></td>
+                        <td><a href="./school.html" class="silka">Школа</a></td>
+                       <td><a href="./university.html" class="silka">Университет</a></td>
+                        <td><a href="./hobbi.html" class="silka">Хобби</a></td>
+                        <td><a href="./resume.html" class="silka">Резюме</a></td>
+                        <td><a href="./svayz.html" class="silka">Связаться со мной</a></td>
+                    </tr>
+             </table>
+                   <div class="text">
+                    Меня зовут Филиппов Вадим. Рожден 17 января 2003 года под знаком зодиака козерог.
+                    Я приехал из небольшого микрорайона Лянгасово.
+                    Сейчас я учусь в Вятском государственном университете.
+                    Моя специальность - "Информационная безопасность
+                    телекоммуникационных систем".
+                    Мне очень нравится учиться, открывать для себя что-то новое. Я обрел много друзей
+					и очень рад, что проведу эти 6 лет с такими замечательными людьми!
+                    </div>
+                    <div class="foto"><img src="./Photo/Me.jpg" class="obome-foto" alt="Фото"></div>
+                <table class="tabliza2">
+                    <tr>
+                        <td><a href="./detstvo.html" class="silka2">Вперед&gt;</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+      </body>
+</html>
